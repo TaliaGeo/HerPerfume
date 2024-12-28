@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HerPerfume - Cart</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Cormorant+Italic&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+</head>
+<body>
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="logo">Her<span>Perfume</span></div>
+      <div class="header-text">“Where Every Woman’s Essence Blooms”</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li>
+            <a href="cart.html" id="cart-btn" class="active">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+            <span class="cart-count" id="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="cart-page">
+    <div class="container">
+      <h2 class="italic-heading">Your Cart</h2>
+      <p class="section-intro">Below are the items you've added to your cart.</p>
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Perfume Name</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="cart-total" id="cart-total"></div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <p>&copy; 2024 HerPerfume. All Rights Reserved.</p>
+      <p class="manager-name">Manager: Talia Qatimeh</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

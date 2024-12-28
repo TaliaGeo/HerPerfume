@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HerPerfume - Home</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Cormorant+Italic&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+  
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+
+   
+  />
+</head>
+<body>
+  
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="logo">
+        Her<span>Perfume</span>
+      </div>
+     
+      <div class="header-text">“Where Every Woman’s Essence Blooms”</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li>
+            <a href="cart.html" id="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+            <span class="cart-count" id="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+ 
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Embrace Your Feminine Elegance</h1>
+      <p>
+        Indulge in our curated collection of enchanting perfumes, crafted to highlight the essence of your true self.
+      </p>
+      <a href="products.html" class="btn hero-btn">Explore Now</a>
+    </div>
+  </section>
+
+  
+  <section class="featured-products">
+    <div class="container">
+      <h2 class="italic-heading">Big Sale</h2>
+      <p class="section-intro">
+        A selection of our most treasured scents, handpicked for you.
+      </p>
+
+      <div class="product-grid" id="home-product-grid">
+       
+        <div class="product-item">
+          <img src="perfume10.webp" alt="Rosabella Perfume" />
+          <h3>Rosabella</h3>
+          <p>
+            A bouquet of fresh roses, peonies, and subtle vanilla—perfect for a romantic evening.
+          </p>
+          <span>$115.00</span>
+          <button 
+            class="btn add-to-cart" 
+            data-id="home-1" 
+            data-name="Rosabella" 
+            data-price="115.00"
+            data-image="perfume10.webp">
+            Add to Cart
+          </button>
+          <div class="cart-alert"></div>
+        </div>
+
+        <div class="product-item">
+          <img src="000.webp" alt="Blush Dream Perfume" />
+          <h3>Blush Dream</h3>
+          <p>
+            An airy blend of jasmine and citrus top notes, leaving a soft, powdery finish.
+          </p>
+          <span>$95.00</span>
+          <button 
+            class="btn add-to-cart" 
+            data-id="home-2" 
+            data-name="Blush Dream" 
+            data-price="95.00"
+            data-image="000.webp">
+            Add to Cart
+          </button>
+          <div class="cart-alert"></div>
+        </div>
+
+        <div class="product-item">
+          <img src="8989.webp" alt="Peony Kiss Perfume" />
+          <h3>Peony Kiss</h3>
+          <p>
+            A gentle fusion of floral notes layered with a hint of fresh berry sweetness.
+          </p>
+          <span>$80.00</span>
+          <button 
+            class="btn add-to-cart" 
+            data-id="home-3" 
+            data-name="Peony Kiss" 
+            data-price="80.00"
+            data-image="8989.webp">
+            Add to Cart
+          </button>
+          <div class="cart-alert"></div>
+        </div>
+
+        <div class="product-item">
+          <img src="09.webp" alt="Lilac Haze Perfume" />
+          <h3>Lilac Haze</h3>
+          <p>
+            Elegant lilac petals blended with warm sandalwood for a timeless, delicate touch.
+          </p>
+          <span>$120.00</span>
+          <button 
+            class="btn add-to-cart" 
+            data-id="home-4" 
+            data-name="Lilac Haze" 
+            data-price="120.00"
+            data-image="09.webp">
+            Add to Cart
+          </button>
+          <div class="cart-alert"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <p>&copy; 2024 HerPerfume. All Rights Reserved.</p>
+      <p class="manager-name">Manager: Talia Qatimeh</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
